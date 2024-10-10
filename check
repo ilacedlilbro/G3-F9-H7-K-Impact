@@ -8,9 +8,11 @@ if gameid == bwz then
     warn("Bedwarz support is discontinued")
 end
 elseif gameid == bd then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/delzq/impactrbx/refs/heads/main/games/bridgeduels"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ilacedlilbro/testering/refs/heads/main/games/bridgeduel"))()
 elseif gameid == bw then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/delzq/impactrbx/refs/heads/main/games/bedwars"))()
+    for i = 1, 10 do
+    warn("Bedwars support is not done")
+end
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/delzq/impactrbx/refs/heads/main/games/skywars"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ilacedlilbro/testering/refs/heads/main/games/skywars"))()
 end
